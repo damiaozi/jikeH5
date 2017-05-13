@@ -1,0 +1,312 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+.jike2-bg{
+	
+	width: 100%;
+	height: 100%;
+	background-color: #d1d1d3;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.jike2-bg .jike2-top{
+	position: relative;
+	height: 57%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.jike2-bg .top-bg{
+	display: block;
+	width: 100%;
+	opacity: 0;
+	animation: an-opacitys 2s ease-out;
+	animation-fill-mode: forwards;
+}
+
+
+.jike2-bg  .xdx1{
+	position: absolute;
+	right: 8%;
+	top: 40%;
+
+	opacity: 0;
+	animation: an-opacitys 1s 6s linear;
+	animation-fill-mode: forwards;
+	width: 18%;
+}
+.jike2-bg  .xdx1 img{
+	width: 100%;
+	display: inline-block;
+	height: auto;
+	margin: 0 auto;
+}
+
+.jike2-bg .tittle{
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.jike2-bg .tittle img{
+	width: 100%;
+	display: inline-block;
+	height: auto;
+	margin: 0 auto;
+}
+.jike2-bg .tittle .t1 img{
+		width: 40%;
+	display: inline-block;
+	height: auto;
+	margin: 0 auto;
+}
+.jike2-bg .tittle .t1{
+	width: 60%;
+}
+.jike2-bg .tittle .t2{
+	width: 85%;
+}
+.jike2-bg .tittle .t3{
+	width: 80%;
+}
+
+.jike2-bg .nianxin{
+	opacity: 0;
+	animation: an-opacitys 3s 1s linear;
+	animation-fill-mode: forwards;
+
+}
+
+
+
+.jike2-bg .w20{
+	position: relative;
+	bottom: 15px;
+	opacity: 0;
+	animation: an-w20 2s 2s ease-out;
+	animation-fill-mode: forwards;
+}
+
+@keyframes an-w20 {
+	from{
+		opacity: 0;
+		transform: translate(100px,-500px);
+		
+	}
+	to{
+		opacity: 1;
+		transform: translate(0,0);
+		animation-fill-mode: forwards;
+	}
+}
+
+
+.jike2-bg .t2{
+
+	opacity: 0;
+
+	animation: an-t2 3s 3s ease-out;
+	animation-fill-mode: forwards;
+}
+.jike2-bg .t3{
+
+	opacity: 0;
+
+	animation: an-t3 3s 3s ease-out;
+	animation-fill-mode: forwards;
+}
+@keyframes an-t2{
+	0%{
+		opacity: 0;
+		transform: translate(200px,0);
+	}
+
+	50%{
+		opacity: 0.5;
+		transform: translate(-200px,0);
+	}
+	100%{
+		opacity: 1;
+		transform: translate(0,0);
+	}
+}
+@keyframes an-t3{
+	0%{
+		opacity: 0;
+		transform: translate(-200px,0);
+	}
+
+	50%{
+		opacity: 0.5;
+		transform: translate(200px,0);
+	}
+	100%{
+		opacity: 1;
+		transform: translate(0,0);
+	}
+}
+
+
+.jike2-bg .jike2-mid{
+	position: relative;
+	width: 100%;
+	height: 20%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	
+}
+
+.jike2-bg .jike2-mid .btn_lb{
+	width: 60%;
+	margin-top: 10%;
+	position: relative;
+	z-index: 200;
+
+}
+.jike2-bg .jike2-mid .btn_lb img{
+	width: 100%;
+	display: inline-block;
+	height: auto;
+	margin: 0 auto;
+}
+.jike2-bg  .btn_bt{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.jike2-bg .jike2-mid .xdx2{
+	position: absolute;
+	left: 0;
+	left: 1%;
+	top: 15%;
+
+	opacity: 0;
+	animation: an-opacitys 1s 7s linear;
+	animation-fill-mode: forwards;
+	width: 15%;
+}
+
+.jike2-bg .jike2-mid .xdx2 img{
+	width: 100%;
+	display: inline-block;
+	height: auto;
+	margin: 0 auto;
+}
+.jike2-bg .jike2-mid .xdx3{
+	position: absolute;
+	right: 0;
+	top: -15%;
+
+	opacity: 0;
+	animation: an-opacitys 1s 8s linear;
+	animation-fill-mode: forwards;
+	width: 18%;
+}
+
+.jike2-bg .jike2-mid .xdx3 img{
+	width: 100%;
+	display: inline-block;
+	height: auto;
+	margin: 0 auto;
+}
+
+.jike2-bg .jike2-mid .btn_lb{
+	
+	opacity: 0;
+	animation: an-opacitys 1s 4s linear;
+	animation-fill-mode: forwards;
+}
+.jike2-bg .jike2-mid .btn_st{
+	width: 60%;
+	margin-top: 5%;
+	opacity: 0;
+	animation: an-opacitys 1s 4s linear;
+	animation-fill-mode: forwards;
+	position: relative;
+	z-index: 200;
+}
+.jike2-bg .jike2-mid .btn_st img{
+	width: 100%;
+	display: inline-block;
+	height: auto;
+	margin: 0 auto;
+}
+
+
+
+.jike2-bg  .mid-bt{
+	position: absolute;
+	bottom: 1%;
+	width: 100%;
+	opacity: 0;
+	animation: an-opacitys 1s 9s linear;
+	animation-fill-mode: forwards;
+}
+.jike2-bg  .mid-bt img{
+	display: inline-block;
+	height:auto;
+	width: 100%;
+}
+
+.jike2-bg footer{
+	
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 8%;
+	background-color: rgba(0,0,0,0.3);
+	display: flex;
+	justify-content: space-around;
+}
+.jike2-bg footer img{
+	width: 50%;
+}
+
+.jike2-bg .btn-zx{
+	flex: 1 1 50%;
+	background-color: transparent;
+	border-top: 0;
+
+}
+
+.jike2-bg .btn-zx span{
+
+}
+
+.jike2-bg .btn-call{
+	flex: 1 1 50%;
+	background-color: transparent;
+	border-top: 0;
+	border-left: 0;
+}
+
+
+@keyframes an-opacitys{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
